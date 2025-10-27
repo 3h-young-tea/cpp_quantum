@@ -1,5 +1,7 @@
 # Quantum in C++
 
+[朋友点这里](README_zh.md)
+
 A minimal C++ quantum bit simulator for 1 and 2 qubits.  
 Designed for experimentation and competitions, including Microsoft Q# style challenges.
 
