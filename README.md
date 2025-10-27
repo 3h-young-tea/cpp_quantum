@@ -22,7 +22,7 @@ Include the header:
 
 ```cpp
 #include "quantum.hpp"
-````
+```
 
 ## Compilation
 
