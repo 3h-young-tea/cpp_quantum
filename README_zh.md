@@ -20,7 +20,7 @@
 
 ```cpp
 #include "quantum.hpp"
-````
+```
 
 ## 编译
 
