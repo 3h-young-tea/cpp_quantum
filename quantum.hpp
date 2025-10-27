@@ -34,7 +34,8 @@ void	x_gate(qubit *q){
 
 void	y_gate(qubit *q){
 	std::complex<double>a,b;
-	a=q->b,b=-q->a;
+	a=q->b*std::complex<double>(0.0,-1.0);
+	b=q->a*std::complex<double>(0.0,1.0);
 	q->a=a,q->b=b;
 }
 
