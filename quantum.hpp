@@ -9,7 +9,7 @@
 
 #define	tea_quantum_hpp
 
-namespace tea{
+namespace	tea{
 
 typedef	struct	_qubit{
 	std::complex<double>a,b;
@@ -58,7 +58,7 @@ typedef	struct	_qubit2{
 }	qubit2;
 
 void	qubit2::normalize(void){
-	double norm = 0;
+	double norm=0;
 	for(auto &x:a)
 		norm+=std::norm(x);
 	if(norm>0)
